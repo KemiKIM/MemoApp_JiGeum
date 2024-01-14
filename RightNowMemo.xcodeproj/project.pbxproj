@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B1B0BA43884EC7567B4C5DD /* Pods_RightNowMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CD1D630D76693CA8E40AE3 /* Pods_RightNowMemo.framework */; };
 		DB29F9B028DB11DB00A5BC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29F9AF28DB11DB00A5BC17 /* AppDelegate.swift */; };
 		DB29F9B228DB11DB00A5BC17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29F9B128DB11DB00A5BC17 /* SceneDelegate.swift */; };
 		DB29F9B728DB11DB00A5BC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29F9B528DB11DB00A5BC17 /* Main.storyboard */; };
@@ -32,9 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A9B36DF53AD950AF315516F /* Pods-RightNowMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightNowMemo.debug.xcconfig"; path = "Target Support Files/Pods-RightNowMemo/Pods-RightNowMemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A6CD1D630D76693CA8E40AE3 /* Pods_RightNowMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RightNowMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBD2A7E183931179DADF5474 /* Pods-RightNowMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightNowMemo.release.xcconfig"; path = "Target Support Files/Pods-RightNowMemo/Pods-RightNowMemo.release.xcconfig"; sourceTree = "<group>"; };
 		DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightNowMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB29F9AF28DB11DB00A5BC17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB29F9B128DB11DB00A5BC17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,30 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1B0BA43884EC7567B4C5DD /* Pods_RightNowMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38ABBBF4F1A1896B6798BD75 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A6CD1D630D76693CA8E40AE3 /* Pods_RightNowMemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD852EF20D54314F30A01FEF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A9B36DF53AD950AF315516F /* Pods-RightNowMemo.debug.xcconfig */,
-				CBD2A7E183931179DADF5474 /* Pods-RightNowMemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		DB286E9B29012F2B000BEAF2 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +93,6 @@
 			children = (
 				DB29F9AE28DB11DB00A5BC17 /* RightNowMemo */,
 				DB29F9AD28DB11DB00A5BC17 /* Products */,
-				BD852EF20D54314F30A01FEF /* Pods */,
-				38ABBBF4F1A1896B6798BD75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,12 +115,7 @@
 				DB286E9C29012F2F000BEAF2 /* Controller */,
 				DB29F9B528DB11DB00A5BC17 /* Main.storyboard */,
 				DB29F9BD28DB11DD00A5BC17 /* LaunchScreen.storyboard */,
-				DB29F9BB28DB11DD00A5BC17 /* Assets.xcassets */,
-				DB29F9C028DB11DD00A5BC17 /* Info.plist */,
-				DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */,
-				DB892B4B293DCB5300B20510 /* Cafe24Ssurround.ttf */,
-				DB892B4C293DCB5300B20510 /* Cafe24SsurroundAir.ttf */,
-				DB892B4D293DCB5300B20510 /* RIDIBatang.otf */,
+				DB8622382B53CD0B00294C4C /* Resource */,
 			);
 			path = RightNowMemo;
 			sourceTree = "<group>";
@@ -168,6 +139,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DB8622372B53CCF100294C4C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DB892B4B293DCB5300B20510 /* Cafe24Ssurround.ttf */,
+				DB892B4C293DCB5300B20510 /* Cafe24SsurroundAir.ttf */,
+				DB892B4D293DCB5300B20510 /* RIDIBatang.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DB8622382B53CD0B00294C4C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DB8622372B53CCF100294C4C /* Font */,
+				DB29F9BB28DB11DD00A5BC17 /* Assets.xcassets */,
+				DB29F9C028DB11DD00A5BC17 /* Info.plist */,
+				DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB29F9C328DB11DD00A5BC17 /* Build configuration list for PBXNativeTarget "RightNowMemo" */;
 			buildPhases = (
-				3A8273A41A9E9BCD3466EE95 /* [CP] Check Pods Manifest.lock */,
 				DB29F9A828DB11DB00A5BC17 /* Sources */,
 				DB29F9A928DB11DB00A5BC17 /* Frameworks */,
 				DB29F9AA28DB11DB00A5BC17 /* Resources */,
-				56E25919833DBBED92664E34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,48 +228,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3A8273A41A9E9BCD3466EE95 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RightNowMemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56E25919833DBBED92664E34 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RightNowMemo/Pods-RightNowMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RightNowMemo/Pods-RightNowMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RightNowMemo/Pods-RightNowMemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB29F9A828DB11DB00A5BC17 /* Sources */ = {
@@ -376,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,7 +390,6 @@
 		};
 		DB29F9C428DB11DD00A5BC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A9B36DF53AD950AF315516F /* Pods-RightNowMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,21 +397,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RightNowMemo/Info.plist;
+				INFOPLIST_FILE = RightNowMemo/Resource/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "지금";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.2;
+				MARKETING_VERSION = 2.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = kim.RightNowMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -473,7 +424,6 @@
 		};
 		DB29F9C528DB11DD00A5BC17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBD2A7E183931179DADF5474 /* Pods-RightNowMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,21 +431,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RightNowMemo/Info.plist;
+				INFOPLIST_FILE = RightNowMemo/Resource/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "지금";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.2;
+				MARKETING_VERSION = 2.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = kim.RightNowMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
