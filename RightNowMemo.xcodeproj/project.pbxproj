@@ -13,18 +13,22 @@
 		DB29F9BA28DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */; };
 		DB29F9BC28DB11DD00A5BC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB29F9BB28DB11DD00A5BC17 /* Assets.xcassets */; };
 		DB29F9BF28DB11DD00A5BC17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29F9BD28DB11DD00A5BC17 /* LaunchScreen.storyboard */; };
-		DB4E353B28FEB0C7003BE641 /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E353A28FEB0C6003BE641 /* MemoData+CoreDataClass.swift */; };
-		DB4E353C28FEB0C7003BE641 /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E353928FEB0C6003BE641 /* MemoData+CoreDataProperties.swift */; };
 		DB4E353E28FEB0E2003BE641 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E353D28FEB0E2003BE641 /* CoreDataManager.swift */; };
 		DB5D291128F862A700499D5F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291028F862A700499D5F /* MainTableViewCell.swift */; };
 		DB5D291328F864AD00499D5F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291228F864AD00499D5F /* DetailViewController.swift */; };
 		DB5D291528F864B800499D5F /* MemoContextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291428F864B800499D5F /* MemoContextCell.swift */; };
 		DB5D291728F864C500499D5F /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291628F864C500499D5F /* DateCell.swift */; };
+		DB86223B2B53D2AF00294C4C /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */; };
+		DB86223C2B53D2AF00294C4C /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */; };
 		DB892B4A293DC9B400B20510 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB892B49293DC9B300B20510 /* CustomAlert.swift */; };
 		DB892B4E293DCD4200B20510 /* Cafe24Ssurround.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB892B4B293DCB5300B20510 /* Cafe24Ssurround.ttf */; };
 		DB892B4F293DCD4500B20510 /* Cafe24SsurroundAir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB892B4C293DCB5300B20510 /* Cafe24SsurroundAir.ttf */; };
 		DB892B50293DCD4700B20510 /* RIDIBatang.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB892B4D293DCB5300B20510 /* RIDIBatang.otf */; };
 		DB892B54293DD15600B20510 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB892B53293DD15600B20510 /* UIViewController+.swift */; };
+		DB98EA5C2B5CD7D10097501C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA5B2B5CD7D10097501C /* SnapKit */; };
+		DB98EA5F2B5CD7D80097501C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA5E2B5CD7D80097501C /* Then */; };
+		DB98EA622B5CD81C0097501C /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA612B5CD81C0097501C /* SwiftyBeaver */; };
+		DB98EA652B5CD8390097501C /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA642B5CD8390097501C /* Toast */; };
 		DBB1D06D28DC2A6000029EE9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1D06C28DC2A6000029EE9 /* StartViewController.swift */; };
 		DBB1D07128DC410000029EE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1D07028DC410000029EE9 /* MainViewController.swift */; };
 		DBE9B86029029D050061A171 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9B85F29029D050061A171 /* SettingDetailViewController.swift */; };
@@ -39,13 +43,13 @@
 		DB29F9BB28DB11DD00A5BC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB29F9BE28DB11DD00A5BC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB29F9C028DB11DD00A5BC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB4E353928FEB0C6003BE641 /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MemoData+CoreDataProperties.swift"; path = "/Users/kimseongho/Desktop/GitProjectFolder/RightNowMemo/RightNowMemo/RightNowMemo/Model/MemoData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		DB4E353A28FEB0C6003BE641 /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MemoData+CoreDataClass.swift"; path = "/Users/kimseongho/Desktop/GitProjectFolder/RightNowMemo/RightNowMemo/RightNowMemo/Model/MemoData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		DB4E353D28FEB0E2003BE641 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		DB5D291028F862A700499D5F /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		DB5D291228F864AD00499D5F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DB5D291428F864B800499D5F /* MemoContextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoContextCell.swift; sourceTree = "<group>"; };
 		DB5D291628F864C500499D5F /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DB892B49293DC9B300B20510 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		DB892B4B293DCB5300B20510 /* Cafe24Ssurround.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ssurround.ttf; sourceTree = "<group>"; };
 		DB892B4C293DCB5300B20510 /* Cafe24SsurroundAir.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24SsurroundAir.ttf; sourceTree = "<group>"; };
@@ -61,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB98EA652B5CD8390097501C /* Toast in Frameworks */,
+				DB98EA5C2B5CD7D10097501C /* SnapKit in Frameworks */,
+				DB98EA5F2B5CD7D80097501C /* Then in Frameworks */,
+				DB98EA622B5CD81C0097501C /* SwiftyBeaver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +140,8 @@
 		DB5D290D28F8627500499D5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DB4E353A28FEB0C6003BE641 /* MemoData+CoreDataClass.swift */,
-				DB4E353928FEB0C6003BE641 /* MemoData+CoreDataProperties.swift */,
+				DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */,
+				DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */,
 				DB4E353D28FEB0E2003BE641 /* CoreDataManager.swift */,
 			);
 			path = Model;
@@ -176,6 +184,12 @@
 			dependencies = (
 			);
 			name = RightNowMemo;
+			packageProductDependencies = (
+				DB98EA5B2B5CD7D10097501C /* SnapKit */,
+				DB98EA5E2B5CD7D80097501C /* Then */,
+				DB98EA612B5CD81C0097501C /* SwiftyBeaver */,
+				DB98EA642B5CD8390097501C /* Toast */,
+			);
 			productName = RightNowMemo;
 			productReference = DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */;
 			productType = "com.apple.product-type.application";
@@ -204,6 +218,12 @@
 				Base,
 			);
 			mainGroup = DB29F9A328DB11DB00A5BC17;
+			packageReferences = (
+				DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */,
+				DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = DB29F9AD28DB11DB00A5BC17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,21 +254,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4E353B28FEB0C7003BE641 /* MemoData+CoreDataClass.swift in Sources */,
 				DBB1D07128DC410000029EE9 /* MainViewController.swift in Sources */,
 				DB4E353E28FEB0E2003BE641 /* CoreDataManager.swift in Sources */,
 				DB892B54293DD15600B20510 /* UIViewController+.swift in Sources */,
 				DBB1D06D28DC2A6000029EE9 /* StartViewController.swift in Sources */,
 				DBE9B86029029D050061A171 /* SettingDetailViewController.swift in Sources */,
 				DB5D291528F864B800499D5F /* MemoContextCell.swift in Sources */,
+				DB86223C2B53D2AF00294C4C /* MemoData+CoreDataClass.swift in Sources */,
 				DB29F9BA28DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld in Sources */,
 				DB29F9B028DB11DB00A5BC17 /* AppDelegate.swift in Sources */,
 				DB5D291328F864AD00499D5F /* DetailViewController.swift in Sources */,
 				DB892B4A293DC9B400B20510 /* CustomAlert.swift in Sources */,
 				DB5D291728F864C500499D5F /* DateCell.swift in Sources */,
+				DB86223B2B53D2AF00294C4C /* MemoData+CoreDataProperties.swift in Sources */,
 				DB5D291128F862A700499D5F /* MainTableViewCell.swift in Sources */,
 				DB29F9B228DB11DB00A5BC17 /* SceneDelegate.swift in Sources */,
-				DB4E353C28FEB0C7003BE641 /* MemoData+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +498,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.0;
+			};
+		};
+		DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.0;
+			};
+		};
+		DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.0;
+			};
+		};
+		DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB98EA5B2B5CD7D10097501C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DB98EA5E2B5CD7D80097501C /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DB98EA612B5CD81C0097501C /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		DB98EA642B5CD8390097501C /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */ = {
