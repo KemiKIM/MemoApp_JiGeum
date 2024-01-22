@@ -3,7 +3,7 @@
 //  RightNowMemo
 //
 //  Created by 김성호 on 2022/09/22.
-///
+//
 
 import UIKit
 
@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
     var mainVCDelegate: moveToStart?
     let ridi = UIFont(name: "Cafe24SsurroundAir", size: 15)
     let cafe24Ssurround = UIFont(name: "Cafe24Ssurround", size: 25)
+    let ridibatang = UIFont(name: "Cafe24SsurroundAir", size: 25)
     
     
     // MARK: [변수 선언] [0] : Title
@@ -28,7 +29,8 @@ class MainViewController: UIViewController {
     private lazy var titleLabel: UILabel = {
         let title = UILabel()
         
-        title.font = cafe24Ssurround
+        // title.font = cafe24Ssurround
+        title.font = .systemFont(ofSize: 25)
         title.text = "지금 당겨서 메모"
         title.textColor = .white
         
@@ -118,6 +120,8 @@ class MainViewController: UIViewController {
         self.tableView.refreshControl = refreshControl
         
         layout()
+        
+        print("MainViewController - viewDidLoad")
     }
  
     override func viewWillAppear(_ animated: Bool) {
@@ -127,12 +131,13 @@ class MainViewController: UIViewController {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
-        
 
+        print("MainViewController - viewWillAppear")
     }
     
+    
     override func viewWillDisappear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+         // self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
 
@@ -203,7 +208,7 @@ extension MainViewController: UITableViewDataSource {
         
         let target = dataManager.getDataFromCoreData()[indexPath.row]
         
-        
+        cell.backgroundColor = .systemGray6
     
         cell.layer.cornerRadius = 8
         cell.layer.masksToBounds = true
@@ -301,7 +306,8 @@ extension MainViewController:  UITableViewDelegate {
 // MARK: [Layout] + [Back.Col]
 extension MainViewController {
     private func layout() {
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.view.backgroundColor = .black
         
         self.layoutTitleView()
         self.layoutTitleLabel()
@@ -389,7 +395,8 @@ extension MainViewController {
     private func layoutTableView() {
         self.view.addSubview(self.tableView)
         
-        self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.tableView.backgroundColor = .black
         
         self.tableView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

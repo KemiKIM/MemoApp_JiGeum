@@ -18,8 +18,9 @@ class StartViewController: UIViewController {
         let title = UILabel()
         let cafe24Ssurround = UIFont(name: "Cafe24Ssurround", size: 25)
         
-        title.font = cafe24Ssurround
-        title.text = "지금"
+        // title.font = cafe24Ssurround
+        title.font = .systemFont(ofSize: 25, weight: .semibold)
+        title.text = "NOW"
         title.textColor = .white
         
         return title
@@ -225,7 +226,8 @@ extension StartViewController: moveToStart {
 // MARK: [Layout] + [Back.Col]
 extension StartViewController {
     func layout() {
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.view.backgroundColor = .black
 
         layoutTitleView()
         layoutTitleLabel()
@@ -238,7 +240,8 @@ extension StartViewController {
     private func layoutTitleView() {
         self.view.addSubview(self.titleView)
         
-        self.titleView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.titleView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.titleView.backgroundColor = .black
         
         self.titleView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
@@ -267,7 +270,8 @@ extension StartViewController {
     private func layoutTextView() {
         self.view.addSubview(self.textView)
 
-        self.textView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.textView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.textView.backgroundColor = .black
 
         self.textView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

@@ -21,7 +21,8 @@ class DateCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         
-        self.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.backgroundColor = .black
         
         addView()
         layout()

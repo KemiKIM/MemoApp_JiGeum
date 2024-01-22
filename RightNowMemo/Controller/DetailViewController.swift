@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Toast
 
 class DetailViewController: UIViewController {
     let dataManager = CoreDataManager.shared
@@ -87,10 +88,29 @@ class DetailViewController: UIViewController {
         
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "RIDIBatang", size: 17)!], for: UIControl.State.normal)
         
+
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+
+        // Navigationbar
+        // self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
        
         layout()
+        
+        print("DetailViewController - viewDidLoad")
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("DetailViewController - viewWillAppear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("DetailViewController - viewDidAppear")
+    }
 
     
     
@@ -276,7 +296,8 @@ extension DetailViewController: UITableViewDelegate {
 extension DetailViewController {
 
     private func layout() {
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.view.backgroundColor = .black
 
         
         naviCustom()
@@ -291,7 +312,8 @@ extension DetailViewController {
     
     
     private func naviCustom() {
-        self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.navigationController?.navigationBar.barTintColor = .black
         
         self.navigationController?.navigationBar.topItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .white
@@ -329,7 +351,8 @@ extension DetailViewController {
     private func layoutTableView() {
         self.view.addSubview(self.tableView)
 
-        self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        // self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "background6")!)
+        self.tableView.backgroundColor = .black
         
         self.tableView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
