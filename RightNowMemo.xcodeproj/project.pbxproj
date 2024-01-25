@@ -18,6 +18,10 @@
 		DB5D291328F864AD00499D5F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291228F864AD00499D5F /* DetailViewController.swift */; };
 		DB5D291528F864B800499D5F /* MemoContextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291428F864B800499D5F /* MemoContextCell.swift */; };
 		DB5D291728F864C500499D5F /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291628F864C500499D5F /* DateCell.swift */; };
+		DB5D49852B62AC1400F982D7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D49842B62AC1400F982D7 /* SnapKit */; };
+		DB5D49882B62AC1F00F982D7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D49872B62AC1F00F982D7 /* Then */; };
+		DB5D498B2B62AC2900F982D7 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */; };
+		DB5D498E2B62AC3300F982D7 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D498D2B62AC3300F982D7 /* Toast */; };
 		DB86223B2B53D2AF00294C4C /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */; };
 		DB86223C2B53D2AF00294C4C /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */; };
 		DB892B4A293DC9B400B20510 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB892B49293DC9B300B20510 /* CustomAlert.swift */; };
@@ -25,10 +29,6 @@
 		DB892B4F293DCD4500B20510 /* Cafe24SsurroundAir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB892B4C293DCB5300B20510 /* Cafe24SsurroundAir.ttf */; };
 		DB892B50293DCD4700B20510 /* RIDIBatang.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB892B4D293DCB5300B20510 /* RIDIBatang.otf */; };
 		DB892B54293DD15600B20510 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB892B53293DD15600B20510 /* UIViewController+.swift */; };
-		DB98EA5C2B5CD7D10097501C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA5B2B5CD7D10097501C /* SnapKit */; };
-		DB98EA5F2B5CD7D80097501C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA5E2B5CD7D80097501C /* Then */; };
-		DB98EA622B5CD81C0097501C /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA612B5CD81C0097501C /* SwiftyBeaver */; };
-		DB98EA652B5CD8390097501C /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DB98EA642B5CD8390097501C /* Toast */; };
 		DBB1D06D28DC2A6000029EE9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1D06C28DC2A6000029EE9 /* StartViewController.swift */; };
 		DBB1D07128DC410000029EE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1D07028DC410000029EE9 /* MainViewController.swift */; };
 		DBE9B86029029D050061A171 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9B85F29029D050061A171 /* SettingDetailViewController.swift */; };
@@ -65,10 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB98EA652B5CD8390097501C /* Toast in Frameworks */,
-				DB98EA5C2B5CD7D10097501C /* SnapKit in Frameworks */,
-				DB98EA5F2B5CD7D80097501C /* Then in Frameworks */,
-				DB98EA622B5CD81C0097501C /* SwiftyBeaver in Frameworks */,
+				DB5D498E2B62AC3300F982D7 /* Toast in Frameworks */,
+				DB5D49852B62AC1400F982D7 /* SnapKit in Frameworks */,
+				DB5D49882B62AC1F00F982D7 /* Then in Frameworks */,
+				DB5D498B2B62AC2900F982D7 /* SwiftyBeaver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,10 +185,10 @@
 			);
 			name = RightNowMemo;
 			packageProductDependencies = (
-				DB98EA5B2B5CD7D10097501C /* SnapKit */,
-				DB98EA5E2B5CD7D80097501C /* Then */,
-				DB98EA612B5CD81C0097501C /* SwiftyBeaver */,
-				DB98EA642B5CD8390097501C /* Toast */,
+				DB5D49842B62AC1400F982D7 /* SnapKit */,
+				DB5D49872B62AC1F00F982D7 /* Then */,
+				DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */,
+				DB5D498D2B62AC3300F982D7 /* Toast */,
 			);
 			productName = RightNowMemo;
 			productReference = DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */;
@@ -219,10 +219,10 @@
 			);
 			mainGroup = DB29F9A328DB11DB00A5BC17;
 			packageReferences = (
-				DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */,
-				DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */,
-				DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
-				DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */,
+				DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = DB29F9AD28DB11DB00A5BC17 /* Products */;
 			projectDirPath = "";
@@ -418,7 +418,7 @@
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RightNowMemo/Resource/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "지금";
+				INFOPLIST_KEY_CFBundleDisplayName = "당겨서 메모";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -452,7 +452,7 @@
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RightNowMemo/Resource/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "지금";
+				INFOPLIST_KEY_CFBundleDisplayName = "당겨서 메모";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -500,59 +500,59 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
-				kind = exactVersion;
-				version = 5.7.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
 			};
 		};
-		DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */ = {
+		DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
 			requirement = {
-				kind = exactVersion;
-				version = 3.0.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
 			};
 		};
-		DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+		DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
 			requirement = {
-				kind = exactVersion;
-				version = 2.0.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
-		DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+		DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/scalessec/Toast-Swift";
 			requirement = {
-				kind = exactVersion;
-				version = 5.1.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DB98EA5B2B5CD7D10097501C /* SnapKit */ = {
+		DB5D49842B62AC1400F982D7 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DB98EA5A2B5CD7D10097501C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		DB98EA5E2B5CD7D80097501C /* Then */ = {
+		DB5D49872B62AC1F00F982D7 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DB98EA5D2B5CD7D80097501C /* XCRemoteSwiftPackageReference "Then" */;
+			package = DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
 		};
-		DB98EA612B5CD81C0097501C /* SwiftyBeaver */ = {
+		DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DB98EA602B5CD81C0097501C /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			package = DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
 			productName = SwiftyBeaver;
 		};
-		DB98EA642B5CD8390097501C /* Toast */ = {
+		DB5D498D2B62AC3300F982D7 /* Toast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DB98EA632B5CD8390097501C /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			package = DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
 			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */

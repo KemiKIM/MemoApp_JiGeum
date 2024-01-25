@@ -125,7 +125,7 @@ class MainViewController: UIViewController {
     }
  
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationItem.hidesBackButton = true
+        // self.navigationItem.hidesBackButton = true
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
         
         DispatchQueue.main.async {
@@ -133,7 +133,20 @@ class MainViewController: UIViewController {
         }
 
         print("MainViewController - viewWillAppear")
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "StartViewController") as? StartViewController {
+            // 성공적으로 초기화된 경우 vc를 사용할 수 있습니다.
+            vc.titleLabel.textColor = .black
+            vc.textView.layer.borderColor = UIColor.black.cgColor
+            vc.leftButton.tintColor = .black
+            vc.rightButton.tintColor = .black
+        }
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+    }
+    
     
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -171,8 +184,17 @@ class MainViewController: UIViewController {
         
         self.tableView.reloadData()
         
-        let vc = StartViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = StartViewController()
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+        
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "StartViewController") as? StartViewController {
+
+            self.present(vc, animated: true)
+        }
+        
+       
     }
     
     
@@ -208,7 +230,7 @@ extension MainViewController: UITableViewDataSource {
         
         let target = dataManager.getDataFromCoreData()[indexPath.row]
         
-        cell.backgroundColor = .systemGray6
+        cell.backgroundColor = .gray
     
         cell.layer.cornerRadius = 8
         cell.layer.masksToBounds = true

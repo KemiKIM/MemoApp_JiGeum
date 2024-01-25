@@ -13,8 +13,8 @@ class StartViewController: UIViewController {
        
     
     // MARK: [변수 선언] [0]: Top
-    private lazy var titleView = UIView()
-    private lazy var titleLabel: UILabel = {
+    lazy var titleView = UIView()
+    lazy var titleLabel: UILabel = {
         let title = UILabel()
         let cafe24Ssurround = UIFont(name: "Cafe24Ssurround", size: 25)
         
@@ -65,7 +65,7 @@ class StartViewController: UIViewController {
     
 
     
-    private lazy var leftButton: UIButton = {
+    lazy var leftButton: UIButton = {
         let left = UIButton(type: .system)
         let leftArrowImg = UIImage(named: "custom-arrow-left")
         
@@ -80,7 +80,7 @@ class StartViewController: UIViewController {
     }()
     
     
-    private lazy var rightButton: UIButton = {
+    lazy var rightButton: UIButton = {
         let right = UIButton(type: .system)
         let rightArrowImg = UIImage(named: "custom-arrow-right")
         
@@ -109,6 +109,7 @@ class StartViewController: UIViewController {
         
         editMethod()
         layout()
+        print("Start - ViewDidload")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -118,11 +119,21 @@ class StartViewController: UIViewController {
         
         self.textView.textColor = .white
         self.textView.becomeFirstResponder()
+        
+        print("Start - viewwillappear")
+        
+        titleLabel.textColor = .white
+        textView.layer.borderColor = UIColor.white.cgColor
+        leftButton.tintColor = .white
+        rightButton.tintColor = .white
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
+        
+        print("Start - viewWillDisappear")
     }
+
     
     
     
@@ -146,13 +157,20 @@ class StartViewController: UIViewController {
     
     
     @objc private func leftButtonTapped() {
+        
+        titleLabel.textColor = .black
+        textView.layer.borderColor = UIColor.black.cgColor
+        leftButton.tintColor = .black
+        rightButton.tintColor = .black
 
         let vc = MainViewController()
+        let navi = UINavigationController(rootViewController: vc)
         vc.mainVCDelegate = self
+        navi.modalPresentationStyle = .overFullScreen
         
         
-        
-        self.navigationController?.pushViewController(vc, animated: true)
+        // self.navigationController?.pushViewController(vc, animated: true)
+        self.present(navi, animated: true)
     }
 
     
@@ -160,6 +178,12 @@ class StartViewController: UIViewController {
     
     
     @objc private func rightButtonTapped() {
+        
+        titleLabel.textColor = .black
+        textView.layer.borderColor = UIColor.black.cgColor
+        leftButton.tintColor = .black
+        rightButton.tintColor = .black
+        
         let vc = MainViewController()
         
         if let memo = editTarget {
@@ -184,8 +208,12 @@ class StartViewController: UIViewController {
             dataManager.saveData(memoText: memoText) {
                 print("save")
             }
-
-            self.navigationController?.pushViewController(vc, animated: true)
+            
+            let navi = UINavigationController(rootViewController: vc)
+            navi.modalPresentationStyle = .overFullScreen
+            
+            // self.navigationController?.pushViewController(navi, animated: true)
+            self.present(navi, animated: true)
         }
         
         vc.mainVCDelegate = self

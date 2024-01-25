@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Toast
 
 class DetailViewController: UIViewController {
     let dataManager = CoreDataManager.shared
@@ -92,7 +91,7 @@ class DetailViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
 
         // Navigationbar
-        // self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
        
         layout()
         
