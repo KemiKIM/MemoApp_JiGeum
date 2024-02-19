@@ -122,10 +122,7 @@ class StartViewController: UIViewController {
         
         print("Start - viewwillappear")
         
-        titleLabel.textColor = .white
-        textView.layer.borderColor = UIColor.white.cgColor
-        leftButton.tintColor = .white
-        rightButton.tintColor = .white
+        reConfigure()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -136,7 +133,16 @@ class StartViewController: UIViewController {
 
     
     
-    
+    func reConfigure() {
+        
+        DispatchQueue.main.async {
+            self.titleLabel.textColor = .white
+            self.textView.layer.borderColor = UIColor.white.cgColor
+            self.leftButton.tintColor = .white
+            self.rightButton.tintColor = .white
+        }
+        
+    }
     
     
     
@@ -200,6 +206,7 @@ class StartViewController: UIViewController {
 
             guard let memo = textView.text, memo.count > 0 else {
                 alert(message: "메모를 입력하세요.")
+                reConfigure()
                 return
             }
             

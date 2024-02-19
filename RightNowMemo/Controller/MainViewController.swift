@@ -191,6 +191,7 @@ class MainViewController: UIViewController {
         
         if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "StartViewController") as? StartViewController {
 
+            vc.modalPresentationStyle = .overFullScreen
             self.present(vc, animated: true)
         }
         
