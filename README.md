@@ -1,9 +1,7 @@
 # 당겨서 메모
 &nbsp;
-
-
 </br>
-</br>
+
 
 ## 🙋. 기획
 
@@ -31,26 +29,3 @@ MVVM, MVC Pattern을 모두 이해하고자 하는 것도 좋지만, MVVM Patter
 </br>
 </br>
 
-
-
-
-&nbsp;
-</br>
-</br>
-
-
-
-## 💻. Development Environment
--> Xcode `13.4`</br>
-&nbsp;
-</br>
-</br>
-
-
-
-## 🔧. 구현 기능
-당겨서 메모하기.</br>
-앱을 키자마자 즉각적인 메모 쓰기 제공화면을 통해, 사용자에게 빠른 메모 환경을 제공.</br>
-&nbsp;
-</br>
-</br>
