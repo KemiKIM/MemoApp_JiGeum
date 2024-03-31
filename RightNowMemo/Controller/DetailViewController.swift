@@ -126,7 +126,10 @@ class DetailViewController: UIViewController {
         
         let vc = UIActivityViewController(activityItems: [data], applicationActivities: nil)
         
-        present(vc, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            self.present(vc, animated: true, completion: nil)
+        }
+        
     }
     
     
@@ -323,7 +326,7 @@ extension DetailViewController {
         let backbutton = UIBarButtonItem(image: leftImg, style: .plain, target: self, action: #selector(backButtonTapped))
         self.navigationItem.leftBarButtonItem = backbutton
         
-        
+   
         let sharedButton = UIBarButtonItem(title: "공유", style: .plain, target: self, action: #selector(sharedButtonTapped))
         self.navigationItem.rightBarButtonItem = sharedButton
         self.navigationItem.rightBarButtonItem?.tintColor = .systemGreen

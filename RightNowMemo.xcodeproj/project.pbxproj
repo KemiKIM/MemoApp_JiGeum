@@ -18,10 +18,12 @@
 		DB5D291328F864AD00499D5F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291228F864AD00499D5F /* DetailViewController.swift */; };
 		DB5D291528F864B800499D5F /* MemoContextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291428F864B800499D5F /* MemoContextCell.swift */; };
 		DB5D291728F864C500499D5F /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D291628F864C500499D5F /* DateCell.swift */; };
-		DB5D49852B62AC1400F982D7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D49842B62AC1400F982D7 /* SnapKit */; };
-		DB5D49882B62AC1F00F982D7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D49872B62AC1F00F982D7 /* Then */; };
-		DB5D498B2B62AC2900F982D7 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */; };
-		DB5D498E2B62AC3300F982D7 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DB5D498D2B62AC3300F982D7 /* Toast */; };
+		DB7F1DB12BB95D6000F48DE0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F1DB02BB95D6000F48DE0 /* WidgetKit.framework */; };
+		DB7F1DB32BB95D6000F48DE0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F1DB22BB95D6000F48DE0 /* SwiftUI.framework */; };
+		DB7F1DB62BB95D6000F48DE0 /* MemoWidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F1DB52BB95D6000F48DE0 /* MemoWidgetExtensionBundle.swift */; };
+		DB7F1DB82BB95D6000F48DE0 /* MemoWidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F1DB72BB95D6000F48DE0 /* MemoWidgetExtension.swift */; };
+		DB7F1DBA2BB95D6100F48DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7F1DB92BB95D6100F48DE0 /* Assets.xcassets */; };
+		DB7F1DBE2BB95D6100F48DE0 /* MemoWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DB7F1DAE2BB95D6000F48DE0 /* MemoWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DB86223B2B53D2AF00294C4C /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */; };
 		DB86223C2B53D2AF00294C4C /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */; };
 		DB892B4A293DC9B400B20510 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB892B49293DC9B300B20510 /* CustomAlert.swift */; };
@@ -33,6 +35,30 @@
 		DBB1D07128DC410000029EE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1D07028DC410000029EE9 /* MainViewController.swift */; };
 		DBE9B86029029D050061A171 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9B85F29029D050061A171 /* SettingDetailViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB7F1DBC2BB95D6100F48DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB29F9A428DB11DB00A5BC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7F1DAD2BB95D6000F48DE0;
+			remoteInfo = MemoWidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB7F1D3D2BB956E000F48DE0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DB7F1DBE2BB95D6100F48DE0 /* MemoWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightNowMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +74,15 @@
 		DB5D291228F864AD00499D5F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DB5D291428F864B800499D5F /* MemoContextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoContextCell.swift; sourceTree = "<group>"; };
 		DB5D291628F864C500499D5F /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		DB7F1D832BB9596A00F48DE0 /* RightNowMemoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightNowMemoDebug.entitlements; sourceTree = "<group>"; };
+		DB7F1D842BB9597600F48DE0 /* MemoWidgetExtensionExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemoWidgetExtensionExtensionDebug.entitlements; sourceTree = "<group>"; };
+		DB7F1DAE2BB95D6000F48DE0 /* MemoWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MemoWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F1DB02BB95D6000F48DE0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DB7F1DB22BB95D6000F48DE0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DB7F1DB52BB95D6000F48DE0 /* MemoWidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		DB7F1DB72BB95D6000F48DE0 /* MemoWidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWidgetExtension.swift; sourceTree = "<group>"; };
+		DB7F1DB92BB95D6100F48DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB7F1DBB2BB95D6100F48DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8622392B53D2AF00294C4C /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DB86223A2B53D2AF00294C4C /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DB892B49293DC9B300B20510 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
@@ -65,10 +100,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5D498E2B62AC3300F982D7 /* Toast in Frameworks */,
-				DB5D49852B62AC1400F982D7 /* SnapKit in Frameworks */,
-				DB5D49882B62AC1F00F982D7 /* Then in Frameworks */,
-				DB5D498B2B62AC2900F982D7 /* SwiftyBeaver in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F1DAB2BB95D6000F48DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F1DB32BB95D6000F48DE0 /* SwiftUI.framework in Frameworks */,
+				DB7F1DB12BB95D6000F48DE0 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				DB29F9AE28DB11DB00A5BC17 /* RightNowMemo */,
+				DB7F1D842BB9597600F48DE0 /* MemoWidgetExtensionExtensionDebug.entitlements */,
+				DB7F1DB42BB95D6000F48DE0 /* MemoWidgetExtension */,
+				DB7F1DAF2BB95D6000F48DE0 /* Frameworks */,
 				DB29F9AD28DB11DB00A5BC17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */,
+				DB7F1DAE2BB95D6000F48DE0 /* MemoWidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +159,7 @@
 		DB29F9AE28DB11DB00A5BC17 /* RightNowMemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB7F1D832BB9596A00F48DE0 /* RightNowMemoDebug.entitlements */,
 				DB29F9AF28DB11DB00A5BC17 /* AppDelegate.swift */,
 				DB29F9B128DB11DB00A5BC17 /* SceneDelegate.swift */,
 				DB5D290A28F8624D00499D5F /* Helper */,
@@ -145,6 +190,26 @@
 				DB4E353D28FEB0E2003BE641 /* CoreDataManager.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB7F1DAF2BB95D6000F48DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F1DB02BB95D6000F48DE0 /* WidgetKit.framework */,
+				DB7F1DB22BB95D6000F48DE0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB7F1DB42BB95D6000F48DE0 /* MemoWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F1DB52BB95D6000F48DE0 /* MemoWidgetExtensionBundle.swift */,
+				DB7F1DB72BB95D6000F48DE0 /* MemoWidgetExtension.swift */,
+				DB7F1DB92BB95D6100F48DE0 /* Assets.xcassets */,
+				DB7F1DBB2BB95D6100F48DE0 /* Info.plist */,
+			);
+			path = MemoWidgetExtension;
 			sourceTree = "<group>";
 		};
 		DB8622372B53CCF100294C4C /* Font */ = {
@@ -178,21 +243,36 @@
 				DB29F9A828DB11DB00A5BC17 /* Sources */,
 				DB29F9A928DB11DB00A5BC17 /* Frameworks */,
 				DB29F9AA28DB11DB00A5BC17 /* Resources */,
+				DB7F1D3D2BB956E000F48DE0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7F1DBD2BB95D6100F48DE0 /* PBXTargetDependency */,
+			);
+			name = RightNowMemo;
+			packageProductDependencies = (
+			);
+			productName = RightNowMemo;
+			productReference = DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB7F1DAD2BB95D6000F48DE0 /* MemoWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7F1DBF2BB95D6100F48DE0 /* Build configuration list for PBXNativeTarget "MemoWidgetExtensionExtension" */;
+			buildPhases = (
+				DB7F1DAA2BB95D6000F48DE0 /* Sources */,
+				DB7F1DAB2BB95D6000F48DE0 /* Frameworks */,
+				DB7F1DAC2BB95D6000F48DE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RightNowMemo;
-			packageProductDependencies = (
-				DB5D49842B62AC1400F982D7 /* SnapKit */,
-				DB5D49872B62AC1F00F982D7 /* Then */,
-				DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */,
-				DB5D498D2B62AC3300F982D7 /* Toast */,
-			);
-			productName = RightNowMemo;
-			productReference = DB29F9AC28DB11DB00A5BC17 /* RightNowMemo.app */;
-			productType = "com.apple.product-type.application";
+			name = MemoWidgetExtensionExtension;
+			productName = MemoWidgetExtensionExtension;
+			productReference = DB7F1DAE2BB95D6000F48DE0 /* MemoWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,11 +281,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					DB29F9AB28DB11DB00A5BC17 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					DB7F1DAD2BB95D6000F48DE0 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -219,16 +302,13 @@
 			);
 			mainGroup = DB29F9A328DB11DB00A5BC17;
 			packageReferences = (
-				DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */,
-				DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
-				DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = DB29F9AD28DB11DB00A5BC17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DB29F9AB28DB11DB00A5BC17 /* RightNowMemo */,
+				DB7F1DAD2BB95D6000F48DE0 /* MemoWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +324,14 @@
 				DB892B4F293DCD4500B20510 /* Cafe24SsurroundAir.ttf in Resources */,
 				DB29F9BC28DB11DD00A5BC17 /* Assets.xcassets in Resources */,
 				DB29F9B728DB11DB00A5BC17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F1DAC2BB95D6000F48DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F1DBA2BB95D6100F48DE0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +360,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB7F1DAA2BB95D6000F48DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F1DB62BB95D6000F48DE0 /* MemoWidgetExtensionBundle.swift in Sources */,
+				DB7F1DB82BB95D6000F48DE0 /* MemoWidgetExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB7F1DBD2BB95D6100F48DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7F1DAD2BB95D6000F48DE0 /* MemoWidgetExtensionExtension */;
+			targetProxy = DB7F1DBC2BB95D6100F48DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DB29F9B528DB11DB00A5BC17 /* Main.storyboard */ = {
@@ -411,8 +516,10 @@
 		DB29F9C428DB11DD00A5BC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RightNowMemo/RightNowMemoDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
@@ -445,6 +552,7 @@
 		DB29F9C528DB11DD00A5BC17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +584,73 @@
 			};
 			name = Release;
 		};
+		DB7F1DC02BB95D6100F48DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6KC5XD5W;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemoWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.RightNowMemo.MemoWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7F1DC12BB95D6100F48DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6KC5XD5W;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemoWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kim.RightNowMemo.MemoWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -497,65 +672,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DB7F1DBF2BB95D6100F48DE0 /* Build configuration list for PBXNativeTarget "MemoWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F1DC02BB95D6100F48DE0 /* Debug */,
+				DB7F1DC12BB95D6100F48DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.0;
-			};
-		};
-		DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devxoul/Then";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-		DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/scalessec/Toast-Swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DB5D49842B62AC1400F982D7 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB5D49832B62AC1400F982D7 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		DB5D49872B62AC1F00F982D7 /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB5D49862B62AC1F00F982D7 /* XCRemoteSwiftPackageReference "Then" */;
-			productName = Then;
-		};
-		DB5D498A2B62AC2900F982D7 /* SwiftyBeaver */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB5D49892B62AC2900F982D7 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
-			productName = SwiftyBeaver;
-		};
-		DB5D498D2B62AC3300F982D7 /* Toast */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB5D498C2B62AC3300F982D7 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
-			productName = Toast;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */ = {
