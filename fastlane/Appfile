@@ -1,0 +1,8 @@
+app_identifier("kim.RightNowMemo") # The bundle identifier of your app
+apple_id("kimseongho@kakao.com") # Your Apple Developer Portal username
+
+itc_team_id("124986837") # App Store Connect Team ID
+team_id("2U6KC5XD5W") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

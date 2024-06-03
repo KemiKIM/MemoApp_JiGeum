@@ -15,7 +15,8 @@ protocol moveToStart {
 
 
 
-
+// Test 중...
+// 주석 테스트 중입니다......
 class MainViewController: UIViewController {
     let dataManager = CoreDataManager.shared
     var mainVCDelegate: moveToStart?
