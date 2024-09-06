@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "1236e63c413f2037a28648d85108da66837c283f3c45314f8dad80f36b4b19c0"
+build_start_time: [1717388763, 601749000]
+build_end_time: [1717388767, 120551000]
+inputs:
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/AppDelegate.swift": [1717139854, 537413952]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/DetailViewController.swift": [1717139854, 537846248]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/MainViewController.swift": [1717378707, 762745036]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/SettingDetailViewController.swift": [1717139854, 538096084]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/StartViewController.swift": [1717139854, 538226002]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Helper/CustomAlert.swift": [1717139854, 538397545]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Helper/UIViewController+.swift": [1717139854, 538492380]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/CoreDataManager.swift": [1717139854, 538639965]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/MemoData+CoreDataClass.swift": [1717139854, 538738799]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/MemoData+CoreDataProperties.swift": [1717139854, 538834883]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/SceneDelegate.swift": [1717139854, 576213808]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/DateCell.swift": [1717139854, 576480728]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/MainTableViewCell.swift": [1717139854, 576588229]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/MemoContextCell.swift": [1717139854, 576681522]
+  ? "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1717388763, 592779933]

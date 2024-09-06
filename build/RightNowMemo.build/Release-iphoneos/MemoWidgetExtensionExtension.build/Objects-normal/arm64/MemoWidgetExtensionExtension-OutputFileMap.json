@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master.swiftconstvalues",
+    "dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master.d",
+    "diagnostics" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master.dia",
+    "emit-module-dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master-emit-module.dia",
+    "swift-dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionExtension-master.swiftdeps"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/MemoWidgetExtension/MemoWidgetExtension.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtension.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtension.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtension.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/MemoWidgetExtension/MemoWidgetExtensionBundle.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionBundle.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionBundle.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/Objects-normal/arm64/MemoWidgetExtensionBundle.o"
+  }
+}

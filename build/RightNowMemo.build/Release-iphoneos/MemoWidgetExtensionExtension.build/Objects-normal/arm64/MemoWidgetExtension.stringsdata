@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/MemoWidgetExtension/MemoWidgetExtension.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "눌러서 메모하기"
+      },
+      {
+        "comment": "",
+        "key": "당겨서 메모"
+      }
+    ]
+  },
+  "version": 1
+}

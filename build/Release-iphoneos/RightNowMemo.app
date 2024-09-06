@@ -1,0 +1,1 @@
+../../../../../../../tmp/RightNowMemo.dst/Applications/RightNowMemo.app

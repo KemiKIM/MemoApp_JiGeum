@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "99cdd82e374bbe2b4ffab175f8c10709eab0aa507ab0ddfe137e88aceb7fecff"
+build_start_time: [1717388760, 953610000]
+build_end_time: [1717388763, 824847000]
+inputs:
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/MemoWidgetExtension/MemoWidgetExtension.swift": [1717139854, 534732549]
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/MemoWidgetExtension/MemoWidgetExtensionBundle.swift": [1717139854, 534822092]
+  ? "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/MemoWidgetExtensionExtension.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1717388760, 567255037]

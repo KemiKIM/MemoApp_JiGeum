@@ -92,6 +92,11 @@
 		DB892B53293DD15600B20510 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		DBB1D06C28DC2A6000029EE9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		DBB1D07028DC410000029EE9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DBDFBD362C0D77FF008F7025 /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		DBDFBD372C0D77FF008F7025 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		DBDFBD382C0D77FF008F7025 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DBDFBD392C0D77FF008F7025 /* report.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		DBDFBD3A2C0D7E47008F7025 /* RightNowMemoRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightNowMemoRelease.entitlements; sourceTree = "<group>"; };
 		DBE9B85F29029D050061A171 /* SettingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +144,7 @@
 		DB29F9A328DB11DB00A5BC17 = {
 			isa = PBXGroup;
 			children = (
+				DBDFBD352C0D77FF008F7025 /* fastlane */,
 				DB29F9AE28DB11DB00A5BC17 /* RightNowMemo */,
 				DB7F1D842BB9597600F48DE0 /* MemoWidgetExtensionExtensionDebug.entitlements */,
 				DB7F1DB42BB95D6000F48DE0 /* MemoWidgetExtension */,
@@ -159,6 +165,7 @@
 		DB29F9AE28DB11DB00A5BC17 /* RightNowMemo */ = {
 			isa = PBXGroup;
 			children = (
+				DBDFBD3A2C0D7E47008F7025 /* RightNowMemoRelease.entitlements */,
 				DB7F1D832BB9596A00F48DE0 /* RightNowMemoDebug.entitlements */,
 				DB29F9AF28DB11DB00A5BC17 /* AppDelegate.swift */,
 				DB29F9B128DB11DB00A5BC17 /* SceneDelegate.swift */,
@@ -231,6 +238,17 @@
 				DB29F9B828DB11DB00A5BC17 /* RightNowMemo.xcdatamodeld */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		DBDFBD352C0D77FF008F7025 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFBD362C0D77FF008F7025 /* Appfile */,
+				DBDFBD372C0D77FF008F7025 /* Fastfile */,
+				DBDFBD382C0D77FF008F7025 /* README.md */,
+				DBDFBD392C0D77FF008F7025 /* report.xml */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,7 +539,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RightNowMemo/RightNowMemoDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RightNowMemo/Resource/Info.plist;
@@ -555,9 +573,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RightNowMemo/RightNowMemoRelease.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2U6KC5XD5W;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -596,7 +615,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -630,7 +649,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 2U6KC5XD5W;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;

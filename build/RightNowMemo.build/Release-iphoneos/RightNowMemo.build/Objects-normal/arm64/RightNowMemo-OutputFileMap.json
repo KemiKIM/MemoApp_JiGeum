@@ -1,0 +1,85 @@
+{
+  "" : {
+    "const-values" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master.swiftconstvalues",
+    "dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master.d",
+    "diagnostics" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master.dia",
+    "emit-module-dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master-emit-module.dia",
+    "swift-dependencies" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/RightNowMemo-master.swiftdeps"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/AppDelegate.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/DetailViewController.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DetailViewController.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DetailViewController.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DetailViewController.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/MainViewController.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainViewController.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainViewController.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainViewController.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/SettingDetailViewController.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SettingDetailViewController.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SettingDetailViewController.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SettingDetailViewController.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Controller/StartViewController.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/StartViewController.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/StartViewController.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/StartViewController.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Helper/CustomAlert.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CustomAlert.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CustomAlert.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CustomAlert.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Helper/UIViewController+.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/UIViewController+.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/UIViewController+.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/UIViewController+.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/CoreDataManager.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CoreDataManager.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CoreDataManager.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/CoreDataManager.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/MemoData+CoreDataClass.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataClass.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataClass.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataClass.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/Model/MemoData+CoreDataProperties.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataProperties.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataProperties.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoData+CoreDataProperties.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/DateCell.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DateCell.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DateCell.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/DateCell.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/MainTableViewCell.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainTableViewCell.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainTableViewCell.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MainTableViewCell.o"
+  },
+  "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/RightNowMemo/View/MemoContextCell.swift" : {
+    "index-unit-output-path" : "/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoContextCell.o",
+    "llvm-bc" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoContextCell.bc",
+    "object" : "/Users/kimseongho/Desktop/Personal/MemoApp_JiGeum/build/RightNowMemo.build/Release-iphoneos/RightNowMemo.build/Objects-normal/arm64/MemoContextCell.o"
+  }
+}

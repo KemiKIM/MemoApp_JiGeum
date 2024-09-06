@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'RightNowMemo' in project 'RightNowMemo'
+➜ Explicit dependency on target 'MemoWidgetExtensionExtension' in project 'RightNowMemo'
+Target 'MemoWidgetExtensionExtension' in project 'RightNowMemo' (no dependencies)
